@@ -1,81 +1,78 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: black;
-}
-
-.container{
-    padding: 2rem 6rem;
-    height: 80%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background: linear-gradient(#870000,#190A05) ;
-    border-radius: 7px;
-
-}
-.heading{
-    margin-top: 2rem;
-    font-size: 2rem;
-    color: white;
-    font-family: cursive;
-
+body {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
 }
 
-span{
-    color: #000;
+.container {
+  padding: 2rem 6rem;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(#ED213A, #93291E);
+  border-radius: 7px;
+}
+.heading {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: white;
+  font-family: roboto;
+  line-height: 7rem;
+}
 
+span {
+  color: #000;
 }
-.calc{
-    display: grid;
-    grid-template-columns: repeat(4,60px);
-    border-radius: 10px;
-    background: linear-gradient(#8e9eab,#eef2f3);
-    padding: 2rem 1rem;
+.calc {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  border-radius: 10px;
+  background: linear-gradient(#8e9eab, #eef2f3);
+  padding: 2rem 1rem;
 }
 
-form input{
-    grid-column: span 4;
-    height: 70px;
-    border-radius: 5px;
-    text-align: end;
-    padding: 40px 4px;
-    outline: 0;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-    border: solid rgb(34, 33, 33) 2px;
-    background: #717171b7;
-
+form input {
+  grid-column: span 4;
+  height: 70px;
+  border-radius: 5px;
+  text-align: end;
+  padding: 40px 4px;
+  outline: 0;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  border: solid rgb(34, 33, 33) 2px;
+  background: #717171b7;
 }
-button{
-    height: 50px;
-    width: 50px;
-    margin: 2px;
-    border-radius: 100%;
-    font-weight: bold;
-    font-size: 1.2rem;
-    font-family:monospace;
-    margin: 5px;
-    outline: 0;
-    border: 0;
-    background: linear-gradient(#485563,#29323c);
-    color: white;
-
+button {
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: monospace;
+  margin: 5px;
+  outline: 0;
+  border: 0;
+  background: linear-gradient(#485563, #29323c);
+  color: white;
 }
-button:hover{
-    background: #181818;
+button:hover {
+  background: #181818;
 }
-button::active{
-    background: #000;
+button::active {
+  background: #000;
 }
-.equal{
-    width: 110 px;
-    border-radius: 24px;
+.equal {
+  width: 110 px;
+  border-radius: 24px;
 }
